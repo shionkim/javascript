@@ -546,6 +546,10 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -599,6 +603,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -609,6 +617,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-7xl {
@@ -722,6 +734,20 @@ video {
 .bg-amber-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 191 36 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
 }
 
 .bg-\[url\(\'https\:\/\/img\.fcbayern\.com\/image\/upload\/cms\/public\/images\/allianz-arena\/wallpaper\/wallpaper-01\.jpg\'\)\] {
@@ -840,6 +866,18 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.bg-blend-overlay {
+  background-blend-mode: overlay;
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken;
 }
 
 .transition {
