@@ -714,6 +714,16 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-amber-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+}
+
+.bg-amber-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/img\.fcbayern\.com\/image\/upload\/cms\/public\/images\/allianz-arena\/wallpaper\/wallpaper-01\.jpg\'\)\] {
   background-image: url('https://img.fcbayern.com/image/upload/cms/public/images/allianz-arena/wallpaper/wallpaper-01.jpg');
 }

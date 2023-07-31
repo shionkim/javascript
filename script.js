@@ -119,7 +119,7 @@ function createVideoElement(videoEmbed) {
 function createTitle(title) {
   const titleContainer = document.createElement("div");
   titleContainer.classList.add(
-    "bg-emerald-700",
+    "bg-amber-500",
     "p-10",
     "text-white",
     "justify-items-center"
